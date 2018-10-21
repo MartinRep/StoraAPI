@@ -10,7 +10,7 @@ In order to access your Netgear Stora NAS device you need:
  - username and password of any user account on Stora device.
 
 To ssh to Stora you need to format the user accordingly:
-ssh <username>_hipserv2_netgear_<serial number>@<Stora IP address>
+ssh USERNAME_hipserv2_netgear_SERIAL_NUMBER@IP_ADDRESS
 
 Example: 
 username: superUser
