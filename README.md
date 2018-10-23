@@ -22,10 +22,11 @@ IP address: 192.168.0.100
 This will bring you to bash shell.
 
 ## Compile and run board_API test
-`gcc board_api.c -o cputemp`
+`gcc board_api.c -o cputemp`  
 `/.cputemp`
 
 ## Test Demo
 
-CPU temp and FAN speed SLOWDOWN test example output
+CPU temp and FAN speed SLOWDOWN test example output.
+Duty cycle goes from `0f` which is Maximum FAN speed to a `00`. This is a Minimum Fan speed. Didn't find the way to turn off completely, yet.
 ![Temp and FAN test demo](https://github.com/MartinRep/StoraAPI/blob/master/Resources/InitTestScreenShot.PNG)
